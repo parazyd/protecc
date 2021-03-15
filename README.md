@@ -41,3 +41,14 @@ moving your arm - making the USB device unplug.
 - Remove files before shutdown.
 - Secure deletion of chosen files before shutdown.
 - No dependencies.
+
+
+## Future extension ideas (exclusive and/or optional)
+
+- Verification
+  - Perhaps some change of USB identify over time
+  - Status bits in USB can be changed for steganography
+  - All states in USB can be used to make sure the device is the true device
+- Timetracking (allow only certain time of day when the device is allowed
+  to be attached, for a certain amount of time)
+- The device should be disconnected for a certain amount per day
